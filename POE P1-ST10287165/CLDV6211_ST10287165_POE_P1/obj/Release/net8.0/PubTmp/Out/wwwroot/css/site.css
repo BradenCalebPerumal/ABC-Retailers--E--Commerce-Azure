@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+body {
+  margin-bottom: 60px;
+  background-color:aliceblue
+}
+.navbar {
+    background-color: darkblue; /* This sets the navbar to earthy brown */
+    border-color: darkblue; /* This sets the border of the navbar, if any */
+    margin-right: 0px;
+}
+/* Adjust footer styling */
+
+
+
+.social-icons img,
+.payment-icons img {
+    width: 50px; /* Adjust size as needed */
+    margin: 10px;
+}
+/* Adjust margin or padding between "Follow Us" and "We Accept" */
+.follow-us, .we-accept {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin between "Follow Us" and "We Accept" */
+}
+
+/* Reduce margin or padding between payment icons */
+
+.payment-icons img {
+    width: 50px; /* Adjust size as needed */
+    margin: 3px; /* Reduce margin between payment icons */
+    height: 20px;
+}
+
+.social-icons img {
+    width: 35px; /* Adjust size as needed */
+    margin: 3px; /* Reduce margin between payment icons */
+    height: 30px;
+}
+

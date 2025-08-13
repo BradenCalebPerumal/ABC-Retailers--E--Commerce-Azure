@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🛍️💻 ABC Retailers – Part 1 Azure Storage 💻🛍️</h1>
+<h1>🛍️💻 ABC Retailers – Part 1 Azure Storage 🛍️💻</h1>
 
 <h2><img src="https://readme-typing-svg.herokuapp.com?font=Russo+One&size=28&duration=3000&pause=1000&color=0078D4&center=true&vCenter=true&width=1000&lines=🛍️+Secure+and+Scalable+E-Commerce;⚙️+Powered+by+ASP.NET+Core+MVC+%26+Azure;👨‍💻+Developed+by+Braden+Caleb+Perumal" alt="Typing SVG" /></h2>
 

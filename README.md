@@ -69,12 +69,35 @@ The UI is **handcrafted** (no Bootstrap) for a unique brand experience.
 1. Clone this repository or download the ZIP.  
 2. Open the project folder in **Visual Studio 2022**.  
 3. Run `dotnet restore` to restore dependencies.  
-4. Update the SQL connection string in `appsettings.json`.  
-5. Apply migrations:  
+4. Update the SQL connection string in `appsettings.json`.
+5. > ⚠️ **Security Notice**  
+> For security purposes, the `AzureStorage` connection string is **not** stored in this repository. You must configure it locally using one of the following methods:
+> 
+> 1. 📝 **Direct File Update (Legacy Approach)**  
+>    Edit `appsettings.json` locally and insert your Azure Storage connection string in the `"AzureStorage"` field.  
+>    *Important:* Do **not** commit this change to Git to avoid exposing sensitive credentials.
+> 
+> 2. 📂 **Environment Variables File (Recommended)**  
+>    Create or update an `.env` file in the project root and add:  
+>    ```env
+>    ConnectionStrings__AzureStorage=YOUR_CONNECTION_STRING
+>    ```
+>    This keeps your credentials out of `appsettings.json` and Git while still being available at runtime.
+> 
+> 3. 🔐 **.NET User Secrets (Local Development)**  
+>    Initialize and set the value using the .NET CLI:  
+>    ```bash
+>    dotnet user-secrets init
+>    dotnet user-secrets set "ConnectionStrings:AzureStorage" "YOUR_CONNECTION_STRING"
+>    ```
+> 
+> Replace `YOUR_CONNECTION_STRING` with your actual Azure Storage connection string. When using `.env` or user secrets, .NET will automatically override the value in `appsettings.json` at runtime.
+
+6. Apply migrations:  
    ```bash
    dotnet ef database update
    ```
-6. Run the application:  
+7. Run the application:  
    ```bash
    dotnet run
    ```

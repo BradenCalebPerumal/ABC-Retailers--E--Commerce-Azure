@@ -202,8 +202,7 @@ ABC Retailers is licensed under the MIT License. You are free to use, modify, an
 ---
 
 ## 14) GitHub Link
-https://github.com/YourUsername/abc-retailers-part1
-
+- 📂 [GitHub Repository](https://github.com/BradenCalebPerumal/ABC-Retailers--E--Commerce-Azure.git)  
 ---
 
 ## 15)  📸 Screenshots

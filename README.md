@@ -196,7 +196,8 @@ ABC Retailers is licensed under the MIT License. You are free to use, modify, an
 ---
 
 ## 13) Credits
-This project was created and maintained by **Braden Caleb Perumal (ST10287165)**.
+ 👨‍💻 Braden Caleb Perumal (ST10287165)  
+  📧 **Email:** [calebperumal28@gmail.com](mailto:calebperumal28@gmail.com)
 
 ---
 
